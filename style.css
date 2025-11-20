@@ -111,5 +111,21 @@ main {
     }
 }
 
+button {
+    background: #ff6ea7;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff5c99;
+    transform: scale(1.05);
+}
  
 
