@@ -19,6 +19,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 
     .header-container {
     max-width: 1220px;
@@ -59,6 +62,7 @@ main {
 .main-container {
     max-width: 1220px;
     margin-inline: auto;
+    padding-block: 14.8rem 4rem;
 
     h2 {
         text-align: center;
@@ -97,7 +101,13 @@ main {
     .pink {
         position: relative;
         top: 3rem;
-        left: 5rem;
+        left: 3rem;
+    }
+}
+
+#absolute {
+    .pink {
+        position: absolute;
     }
 }
 
