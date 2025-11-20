@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Position no CSS</title>
+</head>
+<body>
+    <header>
+   <div class="header-container">
+         <h1>Position no CSS</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#static">Position: static</a>
+                </li>
+
+                <li>
+                    <a href="#relative">Position: relative</a>
+                </li>
+
+                <li>
+                    <a href="#absolute">Position: absolute</a>
+                </li>
+
+                <li>
+                    <a href="#fixed">Position: fixed</a>
+                </li>
+
+            </ul>
+        </nav>
+   </div>
+    </header>
+    <main>
+      <div class="main-container">
+         <section id="static">
+        <h2>Position: static</h2>
+
+        <p>
+        No CSS, o valor <strong>position: static</strong> é o comportamento <mark>padrão de todos os elementos HTML.</mark> Isso significa que o elemento <mark>é posicionado de acordo com o fluxo normal da página</mark>, sem a possibilidade de alterar sua posição com propriedades como top, right, bottom ou left. Em outras palavras, um elemento com position: static não é afetado por coordenadas de posicionamento e não cria um novo contexto de empilhamento (stacking context). Esse tipo de posicionamento é ideal quando não se deseja manipular a localização do elemento manualmente, deixando o navegador organizar os elementos de forma natural, de cima para baixo e da esquerda para a direita.</p>
+       </section>
+
+       <section id="relative">
+        <h2>Position: relative</h2>
+
+        <div></div>
+        <div class="pink"></div>
+        <div></div>
+
+        <p>No CSS, o <strong>position: relative </strong>permite <mark>posicionar um elemento em relação à sua posição original no fluxo normal da página.</mark> Isso significa que, ao aplicar propriedades como top, right, bottom ou left, o elemento se move a partir do ponto onde normalmente estaria, sem afetar o espaço que ocupa no layout — ou seja, os outros elementos continuam se comportando como se ele ainda estivesse em sua posição original. Além disso, quando um elemento tem position: relative, ele pode servir como referência de posicionamento (ou container de referência) para elementos filhos com position: absolute, o que é muito útil para criar layouts mais controlados e precisos.</p>
+       </section>
+      </div>
+    </main>
+</body>
+</html>
